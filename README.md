@@ -9,6 +9,26 @@
 1.  Create a new branch, `lab`, for your work.
 1.  Install dependencies with `npm install`.
 
+### Best Practices: UI / Accessibility
+Many website users have various disabilities and are neurodiverse. There are many
+easy decisions you can make about your HTML and CSS that will help people use your
+website, and these tips will also create a website that is easy to use for everyone.
+
+- Use HTML5 elements - not just divs!
+- Use high contrast between backgrounds and text
+- Caption your images in a relevant way
+- Don't use color or sound alone to show what an element does
+- Organize content with headings and subheadings
+
+### Debugging CSS
+The best way to debug anything is to _be methodical_. This includes CSS! If your
+elements are not behaving as you expect, here are the first steps. More information
+about debugging CSS is in the additional resources.
+
+1. Make sure your class names are exactly the same in HTML and CSS.
+2. Double check that your selectors are selecting the correct element.
+3. Do not ADD MORE to things that aren't working. Take out the code that doesn't work before adding something else.
+
 #### Browser Template
 
 At this point, it is probably helpful to introduce you to the Browser Template that you will be using in many of your projects. There may be a few things happening in here that you're not familiar with (and that's okay), but the most impotant thing to understand about the Browser Template is how it is structured in order to add styles to your HTML.
