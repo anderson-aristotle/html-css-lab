@@ -22,8 +22,7 @@ website, and these tips will also create a website that is easy to use for every
 
 ### Debugging CSS
 The best way to debug anything is to _be methodical_. This includes CSS! If your
-elements are not behaving as you expect, here are the first steps. More information
-about debugging CSS is in the additional resources.
+elements are not behaving as you expect, here are the first steps. More information about debugging CSS is in the additional resources section below.
 
 1. Make sure your class names are exactly the same in HTML and CSS.
 2. Double check that your selectors are selecting the correct element.
@@ -33,7 +32,9 @@ about debugging CSS is in the additional resources.
 
 At this point, it is probably helpful to introduce you to the Browser Template that you will be using in many of your projects. There may be a few things happening in here that you're not familiar with (and that's okay), but the most impotant thing to understand about the Browser Template is how it is structured in order to add styles to your HTML.
 
-I know we just showed you three distinct ways to add CSS to a page, but things are done a little bit differently in the Browser Template. This repo actually relies on said template, so let's take a look at how we would add styling to the example HTML page within. (Note, we will have to use `grunt serve` in order to view this page in our browser).
+I know we just showed you three distinct ways to add CSS to a page, but things are done a little bit differently in the Browser Template. This repo actually relies on said template, so let's take a look at how we would add styling to the example HTML page within. (Note, we will have to use `grunt serve` in order to view this page in our browser). `grunt serve` spins up a local server via Grunt. This local server allows
+us to work in a 'Development' environment to replicate what the 'Deployed'
+environment will  be like.
 
 ### Lab: Create a cookie site
 
@@ -50,9 +51,7 @@ Then, check out the `html` branch and begin working there.
 
 1.  `grunt serve`
 
-  > `grunt serve` spins up a local server via Grunt. This local server allows
-  > us to work in a 'Development' environment to replicate what the 'Deployed'
-  > environment will  be like.
+  > Remember that `grunt serve`is just a tool in our tool box. We do not need to fully understand how it works **yet**.
 
 Once you finish writing your HTML, add the changes you've made to `index.html`
 and make a commit. Then, run the following commands:
