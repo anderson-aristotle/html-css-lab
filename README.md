@@ -2,16 +2,14 @@
 
 # HTML & CSS Overview
 
-
-
 ## Preparation
 
 1.  [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
-1.  Create a new branch, `training`, for your work.
+1.  Create a new branch, `lab`, for your work.
 1.  Install dependencies with `npm install`.
 
-#### Broswer Template
+#### Browser Template
 
 At this point, it is probably helpful to introduce you to the Browser Template that you will be using in many of your projects. There may be a few things happening in here that you're not familiar with (and that's okay), but the most impotant thing to understand about the Browser Template is how it is structured in order to add styles to your HTML.
 
