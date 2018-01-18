@@ -2,16 +2,7 @@
 
 # HTML & CSS Overview
 
-## Objectives
 
-Developers should, at the end of the lesson, be able to:
-
--   Write out the basic skeleton of an HTML page.
--   Add CSS to an HTML file both by using inline styling, `<style>` tags, and by
-linking to an external stylesheet with `<link>`.
--   Explain at a high level how CSS styling works.
--   Write CSS and use it to add styling to a basic page.
--   Deploy a basic web page to GitHub Pages.
 
 ## Preparation
 
