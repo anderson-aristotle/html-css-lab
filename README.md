@@ -2,29 +2,39 @@
 
 # HTML & CSS Overview
 
-## Objectives
-
-Developers should, at the end of the lesson, be able to:
-
--   Write out the basic skeleton of an HTML page.
--   Add CSS to an HTML file both by using inline styling, `<style>` tags, and by
-linking to an external stylesheet with `<link>`.
--   Explain at a high level how CSS styling works.
--   Write CSS and use it to add styling to a basic page.
--   Deploy a basic web page to GitHub Pages.
-
 ## Preparation
 
 1.  [Fork and clone](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
     this repository.
-1.  Create a new branch, `training`, for your work.
+1.  Create a new branch, `lab`, for your work.
 1.  Install dependencies with `npm install`.
 
-#### Broswer Template
+### Best Practices: UI / Accessibility
+Many website users have various disabilities and are neurodiverse. There are many
+easy decisions you can make about your HTML and CSS that will help people use your
+website, and these tips will also create a website that is easy to use for everyone.
+
+- Use HTML5 elements - not just divs!
+- Use high contrast between backgrounds and text
+- Caption your images in a relevant way
+- Don't use color or sound alone to show what an element does
+- Organize content with headings and subheadings
+
+### Debugging CSS
+The best way to debug anything is to _be methodical_. This includes CSS! If your
+elements are not behaving as you expect, here are the first steps. More information about debugging CSS is in the additional resources section below.
+
+1. Make sure your class names are exactly the same in HTML and CSS.
+2. Double check that your selectors are selecting the correct element.
+3. Do not ADD MORE to things that aren't working. Take out the code that doesn't work before adding something else.
+
+#### Browser Template
 
 At this point, it is probably helpful to introduce you to the Browser Template that you will be using in many of your projects. There may be a few things happening in here that you're not familiar with (and that's okay), but the most impotant thing to understand about the Browser Template is how it is structured in order to add styles to your HTML.
 
-I know we just showed you three distinct ways to add CSS to a page, but things are done a little bit differently in the Browser Template. This repo actually relies on said template, so let's take a look at how we would add styling to the example HTML page within. (Note, we will have to use `grunt serve` in order to view this page in our browser).
+I know we just showed you three distinct ways to add CSS to a page, but things are done a little bit differently in the Browser Template. This repo actually relies on said template, so let's take a look at how we would add styling to the example HTML page within. (Note, we will have to use `grunt serve` in order to view this page in our browser). `grunt serve` spins up a local server via Grunt. This local server allows
+us to work in a 'Development' environment to replicate what the 'Deployed'
+environment will  be like.
 
 ### Lab: Create a cookie site
 
@@ -41,9 +51,7 @@ Then, check out the `html` branch and begin working there.
 
 1.  `grunt serve`
 
-  > `grunt serve` spins up a local server via Grunt. This local server allows
-  > us to work in a 'Development' environment to replicate what the 'Deployed'
-  > environment will  be like.
+  > Remember that `grunt serve`is just a tool in our tool box. We do not need to fully understand how it works **yet**.
 
 Once you finish writing your HTML, add the changes you've made to `index.html`
 and make a commit. Then, run the following commands:
