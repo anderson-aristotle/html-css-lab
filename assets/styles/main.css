@@ -1,0 +1,48 @@
+.baking-soda {
+  color: #fffacd;
+}
+body {
+  background-color: #808080;
+  font-family: arial;
+  margin: 0 auto;
+  width: 800px;
+}
+.brown-sugar {
+ color: #A52A2A;
+}
+.butter {
+ color: #FFFF00;
+}
+.choc-chips {
+ color: #D2691E;
+}
+.eggs {
+ color: #FAEBD7;
+}
+.flour {
+ color: #F5DEB3;
+}
+
+h1 {
+  color: #954535;
+  font: 80px cursive;
+  text-align: center;
+}
+.milk {
+ color: #F5FFFA;
+}
+.pudding-powder {
+ color: #B0E0E6;
+}
+.salt {
+ color: #FFF5EE;
+}
+.sugar {
+ color: #FFFFFF;
+}
+ul, ol {
+  list-style-position: inside;
+}
+.vanilla-extract {
+ color: #FFFAF0;
+}
