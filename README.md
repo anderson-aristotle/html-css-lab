@@ -16,10 +16,10 @@ easy decisions you can make about your HTML and CSS that will help people use yo
 website, and these tips will also create a website that is easy to use for everyone.
 
 - Use HTML5 elements - not just divs!
-- Use high contrast between backgrounds and text
-- Caption your images in a relevant way
-- Don't use color or sound alone to show what an element does
-- Organize content with headings and subheadings
+- Use high contrast between backgrounds and text.
+- Caption your images in a relevant way.
+- Don't use color or sound alone to show what an element does.
+- Organize content with headings and subheadings.
 
 ### Debugging CSS
 
@@ -50,19 +50,17 @@ what the 'Deployed' environment will  be like.
 
 ### Lab: Create a cookie site
 
-In squads, you're going to collaboratively create a new webpage using the raw
+In teams, you're going to collaboratively create a new webpage using the raw
 content found inside `index.html` (using semantic tags where possible).
 
-To start, identify one member of your squad to be the 'project lead'. This
+To start, identify one member of your team to be the 'project lead'. This
 person will create three new branches: `gh-pages`, `css`, and `html`; **CREATE
 THESE BRANCHES FROM THE MASTER BRANCH**. The 'project lead' will be the only
-squad member to code during the lab, everyone else will advise them what to
+team member to code during the lab, everyone else will advise them what to
 code.
 
-Then, check out the `html` branch and begin working there.
-
-1. `grunt serve`
-
+Next, check out the `html` branch to begin working there and run `grunt serve`
+in the terminal.
   > Remember that `grunt serve`is just a tool in our tool box. We do not need to
   > fully understand how it works **yet**.
 
@@ -70,18 +68,15 @@ Once you finish writing your HTML, add the changes you've made to `index.html`
 and make a commit. Then, run the following commands:
 
 1. `git checkout master`
-
-  > Move to the master branch
+    > Move to the master branch
 
 1. `git merge html`
-
-  > Add the changes on the `html` branch to the `master` branch. Depending on
-  > what you've done, you may get a warning about a 'merge conflict' - if that
-  > happens, flag down one of the consultants.
+    > Add the changes on the `html` branch to the `master` branch. Depending on
+    > what you've done, you may get a warning about a 'merge conflict' - if that
+    > happens, flag down one of the consultants.
 
 1. `git push origin master`
-
-  > Push your updated `master` branch up to GitHub
+    > Push your updated `master` branch up to GitHub
 
 At this point, the `master` branch on your GitHub fork should include your new
 HTML page.
